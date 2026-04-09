@@ -1,29 +1,28 @@
 # Goods Comparator MCP Server Dependencies
 
-# Web Framework
+# Web Framework & Server
 fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
 
-# HTTP Client
-httpx>=0.26.0
-aiohttp>=3.9.0
-
-# Data Validation
+# Environment & Config
+python-dotenv>=1.0.0
 pydantic>=2.5.0
 pydantic-settings>=2.1.0
 
-# Environment Variables
-python-dotenv>=1.0.0
-
-# MCP Protocol (Model Context Protocol)
+# MCP Protocol
 mcp>=1.0.0
 
 # Async Support
 anyio>=4.2.0
 
-# Web Scraping (for comparing goods from different sources)
-beautifulsoup4>=4.12.0
-lxml>=5.1.0
+# Browser Use (Main scraping + automation library as requested)
+browser-use>=0.1.0
+
+# LLM / Anthropic Client
+anthropic>=0.45.0
+
+# MongoDB
+pymongo>=4.6.0
 
 # Utilities
 tenacity>=8.2.0
