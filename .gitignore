@@ -37,6 +37,7 @@ yarn-error.log*
 Thumbs.db
 
 # Python
+/.venv/
 mcp-server/venv/
 mcp-server/__pycache__/
 *.py[cod]
